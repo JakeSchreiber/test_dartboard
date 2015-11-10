@@ -1,0 +1,86 @@
+html {
+	background-color: #42864d;
+}
+
+#boardContainer {
+	width: 50%;
+	margin-left: 5%;;
+}
+
+.color1 {
+	fill: #c5d2ab;
+	stroke: white;
+	stroke-width:2px;
+	/*stroke-dasharray: 2,2;*/
+	stroke-linejoin: round;
+;
+}
+
+.color2 {
+	fill: black;
+	stroke: white;
+	stroke-width:2px;
+	/*stroke-dasharray: 2,2;*/
+	stroke-linejoin: round;
+}
+
+.color3 {
+	fill: #0010ff;
+	stroke: white;
+	stroke-width:2px;
+	/*stroke-dasharray: 2,2;*/
+	stroke-linejoin: round;
+}
+
+.color4 {
+	fill: #db0400;
+	stroke: white;
+	stroke-width:2px;
+	/*stroke-dasharray: 2,2;*/
+	stroke-linejoin: round;
+}
+
+.colorSingleBull {
+	fill: #0010ff;
+	stroke: white;
+	stroke-width:2px;
+	/*stroke-dasharray: 2,2;*/
+	stroke-linejoin: round;
+}
+
+.colorDoubleBull {
+	fill: #db0400;
+	stroke: white;
+	stroke-width:2px;
+	/*stroke-dasharray: 2,2;*/
+	stroke-linejoin: round;
+}
+
+.colorSingleBull:hover {
+	fill: #353dff;
+}
+
+.colorDoubleBull:hover {
+	fill: #db3e25;
+}
+
+.color1:hover {
+	opacity: .75;
+}
+
+.color2:hover {
+	opacity: .75;
+}
+
+.color3:hover {
+	opacity: .75;
+}
+
+.color4:hover {
+	opacity: .75;
+}
+
+.st0{fill:#FFFFFF;}
+.st1{fill:#010101;}
+.st2{fill:#010101;stroke:#FFFFFF;stroke-miterlimit:10;}
+
