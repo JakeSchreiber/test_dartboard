@@ -232,4 +232,12 @@ html {
 		float: right;
 		color: white;
 	}
+
+	#scoreHeader {
+		font-family: sans-serif;
+		font-weight: bold;
+		font-size: 16pt;
+		margin: 0px;
+		text-align: center;
+	}
 }
