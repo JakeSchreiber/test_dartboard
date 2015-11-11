@@ -3,12 +3,136 @@ html {
 }
 
 #boardContainer {
-	width: 100%;
-	/*margin-left: 5%;;*/
+	width: 65%;
+	display: inline-block;
+	margin-top: 0;
 }
 
+/*
+//////////////SCOREBOARD SETUP//////////////////
+*/
+
+#scoreboard {
+	position: relative;
+	width: 30%;
+	height: 500px;
+	display: inline-block;
+	background-color: #010101;
+	border: 2px solid white;
+	margin-top: 0;
+	margin-left: 2%;
+	float: right;
+	color: white;
+}
+
+#scoreHeader {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 36pt;
+	margin: 0px;
+	text-align: center;
+}
+
+#roundScore {
+	display: inline-block;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 12pt;
+	/*margin-left: 5px;*/
+	text-align: center;
+	color: white;
+	float: left;
+	width: 33.3%;
+}
+
+#score1 {
+	display: inline-block;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 36pt;
+	margin: auto;
+	/*margin-right: auto;*/
+	text-align: center;
+	/*float: left;*/
+	color: white;
+	width: 33.3%;
+}
+
+#roundScore2 {
+	display: inline-block;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 12pt;
+	/*margin-right: 5px;*/
+	text-align: center;
+	color: white;
+	float: right;
+	width: 33.3%;
+}
+
+#dartsRemaining {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 16pt;
+	margin: 0px;
+	text-align: center;
+	color: white;
+}
+
+
+#detailScoreboard{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+#dart1 {
+	display: inline-block;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 12pt;
+	/*margin: auto;*/
+	/*margin-right: auto;*/
+	text-align: center;
+	float: left;
+	color: white;
+	width: 33.3%;
+}
+
+#dart2 {
+	display: inline-block;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 12pt;
+	margin: auto;
+	/*margin-right: auto;*/
+	text-align: center;
+	/*float: left;*/
+	color: white;
+	width: 33.3%;
+}
+
+#dart3 {
+	display: inline-block;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 12pt;
+	/*margin: auto;*/
+	/*margin-right: auto;*/
+	text-align: center;
+	float: right;
+	color: white;
+	width: 33.3%;
+}
+
+
+/*
+//////////////DARTBOARD COLORS//////////////////
+*/
+
+
 .color1 {
-	fill: #c5d2ab;
+	fill: #f2ffff;
 	stroke: white;
 	stroke-width:2px;
 	/*stroke-dasharray: 2,2;*/
@@ -25,7 +149,7 @@ html {
 }
 
 .color3 {
-	fill: #0010ff;
+	fill: #006200;
 	stroke: white;
 	stroke-width:2px;
 	/*stroke-dasharray: 2,2;*/
@@ -41,7 +165,7 @@ html {
 }
 
 .colorSingleBull {
-	fill: #0010ff;
+	fill: #006200;
 	stroke: white;
 	stroke-width:2px;
 	/*stroke-dasharray: 2,2;*/
@@ -57,7 +181,7 @@ html {
 }
 
 .colorSingleBull:hover {
-	fill: #353dff;
+	fill: #009000;
 }
 
 .colorDoubleBull:hover {
@@ -65,7 +189,8 @@ html {
 }
 
 .color1:hover {
-	opacity: .75;
+	fill: #d7d7d7;
+	/*opacity: .75;*/
 }
 
 .color2:hover {
