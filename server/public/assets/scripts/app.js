@@ -36,10 +36,11 @@ function throwDart() {
             el = 0;
             roundScore = 0;
             dartsRemaining = 3;
-            alert("Remove Darts");
             $("#dart1").text("Dart 1: ");
             $("#dart2").text("Dart 2: ");
             $("#dart3").text("Dart 3: ");
+            alert("Remove Darts");
+
 
         }
 
